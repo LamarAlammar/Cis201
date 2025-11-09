@@ -1,0 +1,97 @@
+
+body {
+    text-align: center;
+    margin: 50px 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.header {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+}
+
+
+.nav_menu {
+    overflow: hidden;
+    background-color: orange;
+}
+
+.nav_menu a {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_menu a:hover {
+    background-color: rgb(255, 183, 49);
+    color: rgb(0, 0, 0);
+}
+
+
+.footer {
+     
+    background-color: orange;
+    padding: 15px;
+    text-align: center;
+}
+
+
+table,
+
+td {
+    border: 4px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    padding: 35px;
+    table-layout: auto;
+    background-color: rgb(255, 193, 127);
+    font-size: 120%;
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+caption {
+    font-size: 100%;
+    color: hsl(0, 0%, 0%);
+}
+
+hr {
+    color: rgb(180, 84, 6);
+}
+
+ul {
+    list-style: disc;
+}
+
+h1 {
+    color: #000000;
+}
+
+h2 {
+    color: #000000;
+
+}
+
+label {
+    color:rgb(152, 85, 2);
+    background-color: rgb(255, 166, 0);
+  
+}
+
+body {
+    text-align: center;
+    margin: 5px 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Granny’s Oven</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+<header>
+    <img src="g.JPG" alt="Granny's Oven Logo">
+    <br><br>
+    <div class="header" id="header">
+        <h1>Welcome to Granny’s Oven! 🍰</h1>
+        <br>
+        
+        <div class="nav_menu" id="navigation">
+            <a href="Homeindex.html.html">Home ∿ `🌸`</a>
+            <a href="About us.html.html">About Us ∿ `🌸`</a>
+            <a href="shop.html">Shope ∿ `🌸`</a>
+            <a href="contact.html">Contact ∿ `🌸`</a>
+        </div>
+    </div>
+    <br>
+    <hr color="#ffeef2" size="30">
+</header>
+
+
+  <section class="menu">
+    <h1>Menu</h1>
+    <div class="item">
+      <a href="vanilla.html">
+        <img src="v.JPG" alt="Vanilla Cake" class="c">
+        <p>⋆｡‧˚ʚ Vanilla ɞ˚‧｡⋆</p>
+        <p>cake</p>
+        <p>20 SAR</p>
+      </a>
+      <button onclick="addToCart('Vanilla Cake', 20)">Add to Cart</button>
+    </div>
+
+
+
+    <div class="item">
+      <a href="chocolate.html">
+        <img src="c.JPG" alt="Vanilla Cake" class="c">
+        <p>⋆｡‧˚ʚ Chocolate ɞ˚‧｡⋆</p>
+        <p>cake</p>
+        <p>20 SAR</p>
+      </a>
+      <button onclick="addToCart('Chocolate Cake', 20)">Add to Cart</button>
+    </div>
+
+
+
+    <div class="item">
+      <a href="strawberry.html">
+        <img src="s.JPG" alt="Vanilla Cake" class="c">
+        <p>⋆｡‧˚ʚ Strawberry ɞ˚‧｡⋆</p>
+        <p>cake</p>
+        <p>20 SAR</p>
+      </a>
+      <button onclick="addToCart('Strawberry Cake', 20)">Add to Cart</button>
+
+    </div>
+  </section>
+
+
+  <section class="build-cake">
+    <h4>or</h4>
+    <h1>⛧°。 ⋆༺ Create Your Cake ༻⋆。 °⛧</h1>
+    <button>
+      <a href="coustem.html" class="a">Click here</a>
+    </button>
+    <br><br>
+    <button onclick="checkout()">Send Order</button>
+  </section>
+
+
+
+  <section class="cart">
+    <h3>🛒 Your Cart</h3>
+    <ul id="cartList"></ul>
+    <p>Total Items: <span id="cartCount">0</span></p>
+    <p>Total Price: <span id="cartPrice">0</span> SAR</p>
+    <p id="orderMessage" style="color:green; font-weight:bold;"></p>
+  </section>
+
+
+
+  <footer>
+    <p>© 2025 Granny’s Oven</p>
+  </footer>
+
+</body>
+
+</html>

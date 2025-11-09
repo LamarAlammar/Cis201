@@ -1,0 +1,32 @@
+h1{
+    color: rgb(255, 255, 255);
+    background-color:  #2f4f4f;
+}
+h3{
+    color: lab(0% 0 0);
+    background-color: rgba(75, 76, 77, 0.356);
+}
+
+b{
+color: rgb(0, 0, 0);
+
+
+}
+ol{
+color: brown;
+
+}
+ul{
+
+
+    color: rgb(56, 11, 11);
+}
+hr{
+color: rgb(0, 0, 0);
+    
+    
+}
+*{
+
+    background-color: rgb(205, 209, 209);
+}

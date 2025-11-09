@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Granny’s Oven</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+<header>
+    <img src="g.JPG" alt="Granny's Oven Logo">
+    <br><br>
+    <div class="header" id="header">
+        <h1>Welcome to Granny’s Oven! 🍰</h1>
+        <br>
+        
+        <div class="nav_menu" id="navigation">
+            <a href="Homeindex.html.html">Home ∿ `🌸`</a>
+            <a href="About us.html.html">About Us ∿ `🌸`</a>
+            <a href="shop.html">Shope ∿ `🌸`</a>
+            <a href="contact.html">Contact ∿ `🌸`</a>
+        </div>
+    </div>
+    <br>
+    <hr color="#ffeef2" size="30">
+</header>
+
+
+    <section class="custom-cake">
+        <h1>🎂</h1>
+        <h2>Create Your Cake</h2>
+        <h5>Choose Your Cake Options</h5>
+
+        <label for="flavor">Flavor:</label>
+        <select id="flavor">
+            <option value="Vanilla">Vanilla</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Strawberry">Strawberry</option>
+        </select><br><br>
+
+        <label for="size">Size:</label>
+        <select id="size">
+            <option value="Small">Small - 50 SAR</option>
+            <option value="Medium">Medium - 150 SAR</option>
+            <option value="Large">Large - 200 SAR</option>
+        </select><br><br>
+
+        <label for="topping">Topping:</label>
+        <select id="topping">
+            <option value="Sprinkles">Sprinkles</option>
+            <option value="Chocolate Chips">Chocolate Chips</option>
+            <option value="Fruits">Fruits</option>S
+        </select><br><br>
+
+        <label for="message">Message on Cake:</label><br>
+        <input type="text" id="message" placeholder="Write here..."><br><br>
+
+        <button onclick="addCake()">Add to Cart</button>
+
+        <h3>🛒 Your Cart</h3>
+        <p id="cart"></p>
+        <p id="status"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Granny’s Oven</p>
+    </footer>
+
+</body>
+</html>
